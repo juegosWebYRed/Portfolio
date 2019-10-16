@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'A Charming Font Expanded';
 }
 
 .btn-xl {
@@ -42,7 +42,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 51, 0.7);
 }
 
 /* Map */
@@ -93,7 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 50%), url("../img/caratula.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,6 +103,7 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: rgba(255, 255, 51,0.7);
 }
 
 @media (min-width: 992px) {
@@ -200,8 +201,9 @@ h6 {
   background: #343a40;
 }
 
+
 .service-icon {
-  background-color: #fff;
+  background-color: #ff8000;
   color: #1D809F;
   height: 7rem;
   width: 7rem;
@@ -213,10 +215,10 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0%), url("../img/logro oro.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 500px 600px;
 }
 
 .callout h2 {
@@ -224,6 +226,7 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  color: rgba(0, 0, 0,1);
 }
 
 .portfolio-item {
@@ -295,6 +298,7 @@ h6 {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0%), url("../img/fondo casa.jpg");
 }
 
 footer.footer .social-link {
@@ -322,25 +326,25 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #0000000 !important;
+  border-color: #000000 !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 
 .btn-dark {
@@ -353,13 +357,14 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/fondo casa.jpg") !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #000000 !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #000000 !important;
 }
