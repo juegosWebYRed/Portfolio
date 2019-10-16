@@ -124,8 +124,8 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 50%), url("../img/fondo casa.jpg");
+  border-left: 1px solid rgba(168, 24, 0, 0.1);
 }
 
 .sidebar-nav {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0%), url("../img/logro oro.jpg");
   margin: auto 2rem 2rem;
 }
 
@@ -326,7 +326,7 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #0000000 !important;
+  background-color: #000000 !important;
   border-color: #000000 !important;
   color: #fff !important;
 }
